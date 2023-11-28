@@ -1,9 +1,30 @@
+import { useState, useEffect } from "react";
+import { getProducts } from "../../asynProducts";
+import ItemList from "../ItemList/ItemList";
+import { useParams } from "react-router-dom";
+import { getProductByCategory } from "../../asynProducts";
 
+const ItemListContainer = ({greeting}) => {
+    const [products, setProducts] = useState([]);
 
-function ItemListContainer({greeting}){
-    return(
+    const {categoryId} = useParams();
+
+    useEffect(() => {
+        const asyncFunc = categoryId ? getProductByCategory : getProducts;
+        
+        asyncFunc(categoryId)
+            .then(response => {
+                setProducts(response)
+            })
+            .catch(error => {
+                console.error(error)
+            })
+    }, [categoryId])
+
+    return (
         <div>
-            <h1 className="is-size-1 has-text-centered has-text-weight-bold">{greeting}</h1>
+            <h1>{greeting}</h1>
+            <ItemList products={products}/>
         </div>
     )
 }
