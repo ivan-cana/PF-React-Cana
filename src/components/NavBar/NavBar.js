@@ -6,9 +6,9 @@ import { NavLink, Link } from "react-router-dom";
 function NavBar() {
     return (
         <nav className="navbar is-primary">
-            <Link to='/'>
+            <Link to='/' className="is-flex">
                 <Logo />
-                <h3 className="navbar-brand is-size-1 is-italic is-align-items-center">Fashion Moda</h3>
+                <h3 className="navbar-brand is-size-1 is-italic is-align-items-center has-text-black">Fashion Moda</h3>
             </Link>
             <div className="navbar-menu navbar-end buttons are-medium is-align-items-center mb-0">
                 <NavLink to={`/category/hombre`} className="button is-primary is-light">Hombre</NavLink>

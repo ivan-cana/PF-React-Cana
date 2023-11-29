@@ -5,9 +5,9 @@ const products = [
         name: 'Remera de hombre',
         price: 10000,
         category: 'hombre',
-        img: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.montagne.com.ar%2Fproducto%2F2407-remera-de-hombre-marko&psig=AOvVaw1gypiTdUPzzWl72Ber10LR&ust=1701211625091000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCJDWhKih5YIDFQAAAAAdAAAAABAG',
+        img: 'https://images.unsplash.com/photo-1574180566232-aaad1b5b8450?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8UmVtZXJhJTIwZGUlMjBob21icmV8ZW58MHx8MHx8fDA%3D',
         stock: 10,
-        descrip: 'Remera para hombre marca Montagne',
+        descrip: 'Remera para hombre',
     },
 
     {
@@ -15,9 +15,9 @@ const products = [
         name: 'Pantalon de hombre',
         price: 12000,
         category: 'hombre',
-        img: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Frusty.com.ar%2Fcollections%2Fpantalones-hombre&psig=AOvVaw27Y-Eufr3NQUd7J8xlGtQy&ust=1701211752423000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCID2z-Sh5YIDFQAAAAAdAAAAABAE',
+        img: 'https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8UGFudGFsb24lMjBkZSUyMGhvbWJyZXxlbnwwfHwwfHx8MA%3D%3D',
         stock: 15,
-        descrip: 'Pantalon para hombre marca Rusty',
+        descrip: 'Pantalon para hombre',
     },
 
     {
@@ -25,9 +25,9 @@ const products = [
         name: 'Campera de hombre',
         price: 15000,
         category: 'hombre',
-        img: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.interfuerzas.com.ar%2Fcampera-hombre-softshell-makalu%25C2%25AE-trekking-impermeable%2Fp%3FskuId%3D10736&psig=AOvVaw0CknYzKk2HDfo2l1QNlO9F&ust=1701211857575000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCOD1_5ai5YIDFQAAAAAdAAAAABAF',
+        img: 'https://images.unsplash.com/photo-1548883354-94bcfe321cbb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Y2FtcGVyYXxlbnwwfHwwfHx8Mg%3D%3D',
         stock: 7,
-        descrip: 'Campera para hombre marca Makalu',
+        descrip: 'Campera para hombre',
     },
 
     //Mujer
@@ -36,9 +36,9 @@ const products = [
         name: 'Remera de mujer',
         price: 10000,
         category: 'mujer',
-        img: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.reuschexclusivo.com.ar%2Fproductos%2Fremera-deportiva-microfibra-mujer%2F&psig=AOvVaw1ws545RcbSeI1mdmBTUfWp&ust=1701211963994000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCMjCzcmi5YIDFQAAAAAdAAAAABAe',
+        img: 'https://images.unsplash.com/photo-1554568218-0f1715e72254?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cmVtZXJhfGVufDB8fDB8fHwy',
         stock: 8,
-        descrip: 'Remera para mujer deportiva',
+        descrip: 'Remera para mujer',
     },
 
     {
@@ -46,19 +46,19 @@ const products = [
         name: 'Pantalon de mujer',
         price: 11000,
         category: 'mujer',
-        img: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fpieers.com%2Fmujer%2Fropa%2Fjeans.html&psig=AOvVaw1oGbTdvlBujpNqrTlpuy_9&ust=1701212067721000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCOj9gfui5YIDFQAAAAAdAAAAABAJ',
+        img: 'https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cGFudGFsb258ZW58MHx8MHx8fDI%3D',
         stock: 22,
-        descrip: 'Pantalon jean de mujer',
+        descrip: 'Pantalon para mujer',
     },
 
     {
         id:'6',
-        name: 'Buzo de mujer',
+        name: 'Campera de mujer',
         price: 15000,
         category: 'mujer',
-        img: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.montagne.com.ar%2Fproducto%2F3247-buzo-de-mujer-kala&psig=AOvVaw2_mGiAw-F-lpYZVkF1m2b9&ust=1701212144273000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCLDTwp-j5YIDFQAAAAAdAAAAABAG',
+        img: 'https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YWJyaWdvfGVufDB8fDB8fHwy',
         stock: 12,
-        descrip: 'Buzo de mujer marca Montagne',
+        descrip: 'Campera para mujer',
     },
 
     //Niño
@@ -67,7 +67,7 @@ const products = [
         name: 'Remera de niños',
         price: 7000,
         category: 'niños',
-        img: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.oncetex.com.ar%2Fproductos%2Fremera-ranglan-ninos%2F&psig=AOvVaw2YibAJlc65uOfJdpc3IWZZ&ust=1701212203073000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCPj61ruj5YIDFQAAAAAdAAAAABAF',
+        img: 'https://images.pexels.com/photos/4504010/pexels-photo-4504010.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
         stock: 10,
         descrip: 'Remera para niños',
     },
@@ -77,19 +77,19 @@ const products = [
         name: 'Pantalon de niños',
         price: 8000,
         category: 'niños',
-        img: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.montagne.com.ar%2Fproducto%2F841-pantalon-de-ninos-tanny&psig=AOvVaw3kC8ssv-oMSthg_BS_bKYf&ust=1701212315507000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCKCSmPGj5YIDFQAAAAAdAAAAABAS',
+        img: 'https://images.pexels.com/photos/1598507/pexels-photo-1598507.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
         stock: 4,
-        descrip: 'Pantalon para niños marca Montagne',
+        descrip: 'Pantalon para niños',
     },
 
     {
         id:'9',
-        name: 'Campera de niño',
+        name: 'Buso de niño',
         price: 10000,
         category: 'niños',
-        img: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fbaobabsupercamping.com.ar%2F%3Fproduct%3Dcampera-columbia-nino-powder-lite&psig=AOvVaw1ZQX5kPGIXZQgGWC4b1YD2&ust=1701212363601000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCOCriYik5YIDFQAAAAAdAAAAABAF',
+        img: 'https://images.pexels.com/photos/5559989/pexels-photo-5559989.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
         stock: 7,
-        descrip: 'Campera para niños marca Columbia',
+        descrip: 'Buso para niños',
     },
 ]
 

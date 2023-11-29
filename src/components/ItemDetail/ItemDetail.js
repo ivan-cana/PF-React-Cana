@@ -1,6 +1,6 @@
 import './ItemDetail.css';
 
-const ItemDetail = ({ id, name, img, category, description, price, stock }) => {
+const ItemDetail = ({ id, name, img, category, descrip, price, stock }) => {
     return (
         <article className='tarjetaItem'>
             <header>
@@ -14,7 +14,7 @@ const ItemDetail = ({ id, name, img, category, description, price, stock }) => {
                     Categoría: {category}
                 </p>
                 <p>
-                    Descripción: {description}
+                    Descripción: {descrip}
                 </p>
                 <p>
                     Precio: ${price}
