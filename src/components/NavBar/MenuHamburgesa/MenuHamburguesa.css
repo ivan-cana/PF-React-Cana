@@ -1,0 +1,49 @@
+@media (max-width: 699px) {
+    .contenedorMenuHamburguesa {
+        width: 100%;
+        display: flex;
+        justify-content: end;
+        height: 70px;
+        align-items: center;
+    }
+    
+    .btnMenuHamburguesa {
+        height: 80%;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        padding: 0;
+        padding-right: 10px;
+    }
+    
+    .barra {
+        border: 1px solid white;
+        width: 80%;
+        height: 2px;
+    }
+    
+    .closed {
+        display: none;
+    }
+    
+    .open {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        height: 150px;
+        width: 100%;
+    }
+    
+    .open ul {
+        width: 100%;
+        height: 100%;
+        background-color: rgb(20, 196, 166);
+    }
+    
+    .open ul li {
+        width: 100%;
+    }
+}

@@ -1,0 +1,29 @@
+.contenedorForm {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.contenedorForm form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    font-size: 1.5rem;
+    gap: 20px;
+}
+
+.contenedorForm form label{
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedorForm form div{
+    display: flex;
+    justify-content: center;
+}
+
+.contenedorForm form div button {
+    font-size: 1.3rem;
+}

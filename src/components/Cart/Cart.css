@@ -1,0 +1,31 @@
+.carritoVacio {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    margin-top: 15%;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.carritoVacio h1{
+    font-size: 3rem;
+}
+
+.carritoConProductos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carritoConProductos h3 {
+    font-size: 2rem;
+    margin-top: 60px;
+}
+
+.contenedorBotones {
+    display: flex;
+    gap: 100px;
+    margin-top: 50px;
+}

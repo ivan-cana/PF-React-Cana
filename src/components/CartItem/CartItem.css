@@ -1,0 +1,11 @@
+.productosEnCarrito {
+    font-size: 1.7rem;
+    display: grid;
+    grid-template-columns: 300px 200px 300px 70px;
+    margin-top: 3%;
+    margin-inline: 10%;
+}
+
+.productosEnCarrito p {
+    font-size: 1.7rem;
+}

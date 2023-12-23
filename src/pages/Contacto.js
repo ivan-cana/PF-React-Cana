@@ -1,8 +1,9 @@
 import "../../node_modules/bulma/css/bulma.css";
+import "./contacto.css";
 
 function Contacto() {
     return (
-        <div>
+        <div className="contenedorContacto">
             <h2 className="title has-text-centered mt-4">Contactanos</h2>
             <p className="m-4 mx-6 is-size-4">
                 Estamos aquí para ayudarte en cada paso de tu experiencia de compra. Si tienes alguna pregunta sobre nuestros productos, necesitas asesoramiento en tallas o colores, o simplemente deseas saber más sobre nosotros, no dudes en ponerte en contacto.

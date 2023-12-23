@@ -1,0 +1,14 @@
+.carrito {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    color: #E3FFFA;
+}
+
+@media (min-width: 700px) and (max-width: 1023px) {
+    .carrito {
+        margin-left: 30%;
+    }
+}
+
+
